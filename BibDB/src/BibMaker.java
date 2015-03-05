@@ -13,11 +13,11 @@ public class BibMaker {
 			s= values[0];
 			fout.write(s+",\n");
 			s= values[1];
-			fout.write("author = {"+s+"},\n");;
+			fout.write("Author = {"+s+"},\n");;
 			s= values[2];
-			fout.write("title = {{"+s+"}},\n");;
+			fout.write("Title = {{"+s+"}},\n");;
 			s=values[3];
-			fout.write("year = {"+s+"},\n},\n");;
+			fout.write("Year = {"+s+"},\n},\n");;
 			
 			fout.close();
 		}catch(IOException e){
